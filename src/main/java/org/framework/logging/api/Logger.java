@@ -1,6 +1,10 @@
 package org.framework.logging.api;
 
+import org.framework.logging.appender.LogAppender;
 import org.framework.logging.core.constants.LogLevel;
+import org.framework.logging.filter.LogFilter;
+
+import java.util.List;
 
 public interface Logger {
     void debug(String message);
